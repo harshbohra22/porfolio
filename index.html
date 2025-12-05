@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="portfolio.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Harsh Bohra - Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+
     <!-- Navigation -->
     <nav id="navbar">
         <div class="container">
-            <a href="#home" class="logo">My Portfolio</a>
+            <a href="#home" class="logo">Harsh Bohra</a>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#coding-profiles">Profiles</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -31,17 +39,17 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="container">
-            <div class="hero-content">
-                <h1>"Hello"!, I'm <span class="highlight">Harsh Bohra</span></h1>
+            <div class="hero-content fade-in">
+                <h1>Hello! I'm <span class="highlight">Harsh Bohra</span></h1>
                 <h2>Passionate Programmer with strong DSA skills and hands-on web development experience</h2>
-                <p>I create beautiful, functional websites and applications.</p>
+                <p>I create beautiful, functional websites and applications that solve real-world problems.</p>
                 <div class="hero-buttons">
                     <a href="#projects" class="btn">View My Work</a>
                     <a href="#contact" class="btn btn-outline">Contact Me</a>
                 </div>
             </div>
-            <div class="hero-image">
-                <img src="photo2 (2).png" width="500" alt="Profile Image">
+            <div class="hero-image fade-in">
+                <img src="photo2 (2).png" alt="Harsh Bohra Profile">
             </div>
         </div>
     </section>
@@ -49,15 +57,16 @@
     <!-- About Section -->
     <section id="about" class="section about">
         <div class="container">
-            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <h2 class="section-title fade-in">About <span class="highlight">Me</span></h2>
             <div class="about-content">
-                <div class="about-image">
-                    <img src="photo3.png" width="600" alt="About Me">
+                <div class="about-image fade-in">
+                    <img src="photo3.png" alt="About Harsh Bohra">
                 </div>
-                <div class="about-text">
+                <div class="about-text fade-in">
                     <h3>Who am I?</h3>
-                    <p>I'm a passionate coder and web developer with expertise in creating modern, responsive websites and web applications  and a love for solving real-world problems through code</p>
-                    
+                    <p>I'm a passionate coder and web developer with expertise in creating modern, responsive websites
+                        and web applications, and a love for solving real-world problems through code.</p>
+
                     <div class="about-details">
                         <div class="detail-item">
                             <h4>Name:</h4>
@@ -76,7 +85,7 @@
                             <p>Delhi, India</p>
                         </div>
                     </div>
-                    
+
                     <a href="#" class="btn" id="download-resume">See Resume</a>
                 </div>
             </div>
@@ -86,9 +95,9 @@
     <!-- Skills Section -->
     <section id="skills" class="section skills">
         <div class="container">
-            <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+            <h2 class="section-title fade-in">My <span class="highlight">Skills</span></h2>
             <div class="skills-container">
-                <div class="skill-category">
+                <div class="skill-category fade-in">
                     <h3>Frontend</h3>
                     <div class="skill-item">
                         <div class="skill-info">
@@ -127,8 +136,8 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="skill-category">
+
+                <div class="skill-category fade-in">
                     <h3>Backend</h3>
                     <div class="skill-item">
                         <div class="skill-info">
@@ -167,8 +176,8 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="skill-category">
+
+                <div class="skill-category fade-in">
                     <h3>Design</h3>
                     <div class="skill-item">
                         <div class="skill-info">
@@ -210,63 +219,53 @@
             </div>
         </div>
     </section>
-   
-    <!-- Coding Profiles Section -->
-<section id="coding-profiles" class="section">
-    <div class="container">
-        <h2 class="section-title">Coding <span class="highlight">Profiles</span></h2>
-        <div class="coding-profiles-container">
-            <div class="profile-card">
-                <div class="profile-icon">
-                    <i class="fab fa-leetcode"></i>
-                </div>
-                <h3>LeetCode</h3>
-                <div class="profile-stats">
-                    <img src="https://leetcard.jacoblin.cool/harshbohra_hb?theme=unicorn" alt="LeetCode Stats" class="leetcode-stats">
-                </div>
-                <a href="https://leetcode.com/harshbohra_hb/" target="_blank" class="btn">View Profile</a>
-            </div>
-            <div class="profile-card">
-                <div class="profile-icon">
-                    <i class="fas fa-code"></i>
-                </div>
-               <!-- Coding Profiles Section -->
 
-    <div class="container">
-        <h2 class="section-title">Coding <span class="highlight">Profiles</span></h2>
-        <div class="coding-profiles-container">
-            <div class="profile-card">
-                <!-- LeetCode card remains the same -->
-            </div>
-            <div class="profile-card">
-                <div class="profile-icon">
-                    <i class="fas fa-code"></i>
-                </div>
-                <h3>Coding Ninjas</h3>
-                <div class="profile-image">
-                    <img src="photo1.png" alt="">
-                </div>
-                <div class="profile-stats">
-                    <div class="stat">
-                        <span class="stat-label">Problems Solved</span>
-                        <span class="stat-value" id="codingninjas-solved">0</span>
+    <!-- Coding Profiles Section -->
+    <section id="coding-profiles" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Coding <span class="highlight">Profiles</span></h2>
+            <div class="coding-profiles-container">
+                <div class="profile-card fade-in">
+                    <div class="profile-icon">
+                        <i class="fab fa-leetcode"></i>
                     </div>
-                    <div class="stat">
-                        <span class="stat-label">Contest Rating</span>
-                        <span class="stat-value" id="codingninjas-rating">0</span>
+                    <h3>LeetCode</h3>
+                    <div class="profile-stats">
+                        <img src="https://leetcard.jacoblin.cool/harshbohra_hb?theme=unicorn" alt="LeetCode Stats"
+                            class="leetcode-stats">
                     </div>
+                    <a href="https://leetcode.com/harshbohra_hb/" target="_blank" class="btn">View Profile</a>
                 </div>
-                <a href="https://www.codingninjas.com/yourusername/" target="_blank" class="btn">View Profile</a>
+                <div class="profile-card fade-in">
+                    <div class="profile-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Coding Ninjas</h3>
+                    <div class="profile-image">
+                        <img src="photo1.png" alt="Coding Ninjas Profile">
+                    </div>
+                    <div class="profile-stats">
+                        <div class="stat">
+                            <span class="stat-label">Problems Solved</span>
+                            <span class="stat-value" id="codingninjas-solved">250+</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Contest Rating</span>
+                            <span class="stat-value" id="codingninjas-rating">1800</span>
+                        </div>
+                    </div>
+                    <a href="https://www.codingninjas.com/studio/profile/harshbohra" target="_blank" class="btn">View
+                        Profile</a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- Projects Section -->
     <section id="projects" class="section projects">
         <div class="container">
-            <h2 class="section-title">My <span class="highlight">Projects</span></h2>
-            <div class="filter-buttons">
+            <h2 class="section-title fade-in">My <span class="highlight">Projects</span></h2>
+            <div class="filter-buttons fade-in">
                 <button class="filter-btn active" data-filter="all">All</button>
                 <button class="filter-btn" data-filter="web">Web</button>
                 <button class="filter-btn" data-filter="app">App</button>
@@ -281,12 +280,13 @@
     <!-- Contact Section -->
     <section id="contact" class="section contact">
         <div class="container">
-            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <h2 class="section-title fade-in">Get In <span class="highlight">Touch</span></h2>
             <div class="contact-content">
-                <div class="contact-info">
+                <div class="contact-info fade-in">
                     <h3>Let's talk about everything!</h3>
-                    <p>Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
-                    
+                    <p>Feel free to reach out if you're looking for a developer, have a question, or just want to
+                        connect.</p>
+
                     <div class="contact-details">
                         <div class="contact-item">
                             <i class="fas fa-envelope"></i>
@@ -310,17 +310,18 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/harshbohra22" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/harsh-bohra" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-dribbble"></i></a>
                     </div>
                 </div>
-                
-                <form class="contact-form" id="contactForm">
+
+                <form class="contact-form fade-in" id="contactForm">
                     <div class="form-group">
                         <input type="text" id="name" placeholder="Your Name" required>
                     </div>
@@ -338,12 +339,12 @@
             </div>
         </div>
     </section>
-   
+
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+            <p>&copy; <span id="year"></span> Harsh Bohra. All rights reserved.</p>
         </div>
     </footer>
 
@@ -352,6 +353,8 @@
         <i class="fas fa-arrow-up"></i>
     </a>
 
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="portfolio.js"></script>
 </body>
+
 </html>
