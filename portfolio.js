@@ -244,8 +244,8 @@ document.addEventListener('DOMContentLoaded', function () {
             description: 'A modern digital phonebook application for efficient contact management with search, CRUD operations, and responsive design.',
             tags: ['Web', 'JavaScript', 'Node.js', 'MongoDB'],
             image: 'contactcore.png',
-            demo: '#',
-            code: 'https://github.com/harshbohra22/ContactCore',
+            demo: 'https://contactcore.onrender.com',
+            code: 'https://github.com/harshbohra22/contactcore',
             category: 'web'
         }
     ];
@@ -331,16 +331,9 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Download Resume button
-    const downloadResumeBtn = document.getElementById('download-resume');
-
-    if (downloadResumeBtn) {
-        downloadResumeBtn.addEventListener('click', function (e) {
-            e.preventDefault();
-            alert('Resume download feature coming soon! 📄');
-            // window.location.href = 'path-to-your-resume.pdf';
-        });
-    }
+    // Download Resume button - Logic handled in HTML href
+    // const downloadResumeBtn = document.getElementById('download-resume');
+    // if (downloadResumeBtn) { ... }
 
     // Set current year in footer
     const yearElement = document.getElementById('year');
