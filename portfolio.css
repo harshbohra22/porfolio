@@ -565,11 +565,29 @@ img {
 }
 
 /* Specific skill progress bars */
-/* Specific skill progress bars */
 .html {
     width: 95%;
 }
 
+.css {
+    width: 90%;
+}
+
+.js {
+    width: 90%;
+}
+
+.ts {
+    width: 85%;
+}
+
+.react {
+    width: 90%;
+}
+
+.java {
+    width: 90%;
+}
 
 .python {
     width: 85%;

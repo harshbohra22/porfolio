@@ -237,7 +237,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'hydrosense.png',
             demo: 'https://system-ai-repository.vercel.app/',
             code: 'https://github.com/harshbohra22/System-AI-repository',
-            category: 'web'
+            category: 'design'
         },
         {
             title: 'CONTACTCORE (Digital Phonebook)',
